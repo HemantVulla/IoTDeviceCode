@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCrudIoTDevicesAPI", "DemoCrudIoTDevicesAPI\DemoCrudIoTDevicesAPI.csproj", "{1A782F6B-09F6-44FF-B0A0-6EAEB3EF3B4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A782F6B-09F6-44FF-B0A0-6EAEB3EF3B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A782F6B-09F6-44FF-B0A0-6EAEB3EF3B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A782F6B-09F6-44FF-B0A0-6EAEB3EF3B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A782F6B-09F6-44FF-B0A0-6EAEB3EF3B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0823FB7B-1CB0-42C9-B3CD-669498230297}
+	EndGlobalSection
+EndGlobal
