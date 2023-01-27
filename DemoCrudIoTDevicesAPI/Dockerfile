@@ -10,10 +10,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["DemoCrudIoTDevicesAPI/DemoCrudIoTDevicesAPI.csproj", "DemoCrudIoTDevicesAPI/"]
-RUN dotnet restore "DemoCrudIoTDevicesAPI/DemoCrudIoTDevicesAPI.csproj"
+COPY ["DemoCrudIoTDevicesAPI.csproj", "."]
+RUN dotnet restore "./DemoCrudIoTDevicesAPI.csproj"
 COPY . .
-WORKDIR "/src/DemoCrudIoTDevicesAPI"
+WORKDIR "/src/."
 RUN dotnet build "DemoCrudIoTDevicesAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
